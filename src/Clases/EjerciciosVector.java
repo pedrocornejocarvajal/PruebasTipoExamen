@@ -1,8 +1,10 @@
-public class Vector {
+package Clases;
+
+public class EjerciciosVector {
 
     public double[] vector;
 
-    public  Vector(double[] vector){
+    public EjerciciosVector(double[] vector){
 
         this.vector = vector.clone();
     }
